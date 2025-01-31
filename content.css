@@ -1,0 +1,87 @@
+.main {
+    background-color: var(--darkgray);
+    }
+    main p{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+  align-items: center;
+    justify-self: center;
+     width: 80%;
+     margin: 0 auto;
+     height: 90vh;
+    background-color: var(--darkgray);
+    main {
+     justify-self: start;
+     margin-left: 20px;
+     color: var(--white);
+     width: 80%;
+    }
+     main h1 {
+     font-size: 1rem;
+    }
+    main p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    text-align: left;
+    }
+    main {
+      text-align: center;
+    }
+    main p2{
+     justify-self: start;
+     display: grid;
+     height: 40%;
+     width: 60%;
+     margin: 0 auto;
+     margin-right: 20px;
+      text-align: right;
+        }
+
+    /* Mobile responsive */
+
+@media screen and (max-width: 768px) {
+    .main-container {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-self: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 90vh;
+    background-color: var(-darkgray);
+    }
+    main {
+    justify-self: center;
+    color: var(--white);
+    width: 80%;
+    margin: 0;
+    }
+    main h1 {
+    font-size: 2.5rem;
+        }
+    main p {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        }
+        main p2{
+        display: none;
+        }
+        media screen and (max-width: 480px) {
+        .main-content {
+        text-align: center;
+        }
+        
+        .main-content h1 {
+        
+        font-size: 2.8rem;
+        
+        }
+        
+        main p {
+        
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        
+        }
+    }
